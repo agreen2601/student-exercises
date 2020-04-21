@@ -7,7 +7,7 @@ lists = Exercise("Lists", "Python")
 dictionaries = Exercise("Dictionaries", "Python")
 tuples = Exercise("Tuples", "Python")
 sets = Exercise("Sets", "Python")
-debugging_python = Exercise("Debuggin Python", "Python")
+debugging_python = Exercise("Debuggin", "Python")
 
 cohort_37 = Cohort("Cohort 37")
 cohort_38 = Cohort("Cohort 38")
