@@ -23,12 +23,12 @@ jisie = Instructor("Jisie", "David", "Jisie David", "Cohort 38", "So cheery")
 kristen = Instructor("Kristen", "Norris", "Kristen Norris", "Cohort 38", "Sticking with us until the end")
 bryan = Instructor("Bryan", "Nilsen", "Bryan Nilsen", "Cohort 40", "High fives")
 
-jisie.add_student_exercise(william, lists)
-jisie.add_student_exercise(andrew, dictionaries)
-kristen.add_student_exercise(michael, tuples)
-kristen.add_student_exercise(roxanne, sets)
-bryan.add_student_exercise(william, debugging_python)
-bryan.add_student_exercise(william, sets)
+jisie.assign_student_exercise(william, lists)
+jisie.assign_student_exercise(andrew, dictionaries)
+kristen.assign_student_exercise(michael, tuples)
+kristen.assign_student_exercise(roxanne, sets)
+bryan.assign_student_exercise(william, debugging_python)
+bryan.assign_student_exercise(william, sets)
 
 print(f'{william.first_name} {william.last_name} is working on the following exercises:')
 
