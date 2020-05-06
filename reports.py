@@ -72,7 +72,7 @@ class StudentExerciseReports():
 
     def python_exercises(self):
 
-        """Retrieve all Python"""
+        """Retrieve all Python exercises"""
 
         with sqlite3.connect(self.db_path) as conn:
             conn.row_factory = lambda cursor, row: Exercise(row[0], row[1], row[2])
@@ -92,7 +92,7 @@ class StudentExerciseReports():
 
     def react_exercises(self):
 
-        """Retrieve all React"""
+        """Retrieve all React exercises"""
 
         with sqlite3.connect(self.db_path) as conn:
             conn.row_factory = lambda cursor, row: Exercise(row[0], row[1], row[2])
@@ -177,6 +177,3 @@ reports.all_students()
 print('\n7. Display all instructors with cohort name.')
 reports.all_instructors()
 print('\n')
-
-
-
