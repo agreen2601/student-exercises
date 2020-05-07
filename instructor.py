@@ -1,5 +1,6 @@
 from nss_person import NSSPerson
 
+
 class Instructor(NSSPerson):
     def __init__(self, id, first, last, slack, specialty, cohort):
         self.id = id

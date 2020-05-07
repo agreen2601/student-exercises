@@ -1,5 +1,6 @@
 from nss_person import NSSPerson
 
+
 class Student(NSSPerson):
 
     def __init__(self, id, first, last, handle, cohort):
